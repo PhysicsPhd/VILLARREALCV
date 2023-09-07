@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1">
+        <title>
+            Website
+        </title>
+        <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8slwJxHudnCZk96l-Jj0Ww9j4ikvFqrMH4VikID30872JTYj-rM4jzxYAx7n2eem_usg&usqp=CAU" type="image/x-icon"/>
+        <!--Open graph-->
+        <meta property="og-title" content="Website"/>
+        <meta property="og-url" content="www.example.com"/>
+        <meta property="og-image" content="https://www.infobae.com/new-resizer/IY_t0Mig4wcTVrSrtqq7EA19OYU=/arc-anglerfish-arc2-prod-infobae/public/CSREZGJBZRHRXKJMX7LOFENT2E.jpg"/>
+        <meta property="og-description" content="La mejor página web"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" media="(max-width:600px)" href="css/phone.css">
+    </head>
+    <body>
+        <h1>Lista de candidatos</h1>
+        <h2>¿Cuál es tu menos preferido?</h2>
+        <h3>¿Cuál es tu favorito?</h3>
+        <p>¡Hola, mundo!</p>
+        <section>
+            Esta es una sección que tiene texto.
+            <ul>
+                <li><em>Candidato 1</em></li>
+                <li><strong>Candidato 2</strong></li>
+            </ul>
+            <p id="para1">Lorem ipsum dolor sit amet adipiscing bibendum sem orci tempus aliquet gravida, orci amet iaculis aptent blandit quam accumsan donec in facilisis, cursus ante curabitur aliquet condimentum tincidunt facilisis non cubilia lorem et pretium aliquam phasellus ipsum metus quisque auctor tristique donec nibh, praesent congue ultricies aenean ornare ligula sagittis proin sed vestibulum purus tempus aenean neque aliquam curae vivamus purus egestas ligula tincidunt nullam.</p>
+            <p class="redbold">Lorem ipsum dolor sit amet adipiscing bibendum sem orci tempus aliquet gravida, orci amet iaculis aptent blandit quam accumsan donec in facilisis, cursus ante curabitur aliquet condimentum tincidunt facilisis non cubilia lorem et pretium aliquam phasellus ipsum metus quisque auctor tristique donec nibh, praesent congue ultricies aenean ornare ligula sagittis proin sed vestibulum purus tempus aenean neque aliquam curae vivamus purus egestas ligula tincidunt nullam.</p>
+        </section>
+        <div id="radiobuttons">
+            <label for="cand1">Candidato 1</label>
+            <input type="radio" id="cand1" name="cand1" value="cand1"/>
+            <label for="cand1">Candidato 2</label>
+            <input type="radio" id="cand2" name="cand2" value="cand2"/>
+        </div>
+        <div id="checkboxes">
+            <label for="pollo">Pollo</label>
+            <input type="checkbox" id="pollo" name="pollo" value="pollo"/>
+            <label for="pescado">Pescado</label>
+            <input type="checkbox" id="pescado" name="pescado" value="pescado"/>
+        </div>
+        <form action="" method="get" id="formulario">
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="name" placeholder="Ingrese su nombre" required
+                   oninvalid="setCustomValidity('Ponga nombre')"  onvalid="setCustomValidity('')"/>
+            <input type="submit" value="Loco"/>
+        </form>
+        <a href="actionpage.html">Otra página web</a>
+        <span>Hola</span>
+        <div id="images">
+            <img src="file:///C:\Users\usuario\Desktop\Front-end\lightbulb-black-wallpaper-desktop.png" 
+             alt="Fondo de escritorio negro con foco encendido" style="width: 50vw;"/>
+            <img src="https://www.infobae.com/new-resizer/IY_t0Mig4wcTVrSrtqq7EA19OYU=/arc-anglerfish-arc2-prod-infobae/public/CSREZGJBZRHRXKJMX7LOFENT2E.jpg" 
+             alt="Boleta de Massa" style="width: 10vw;"/>
+            <button type="button" title="Tururu">Botón</button>
+        </div>
+        <div id="videos">
+            <video width="100%" controls autoplay loop>
+                <source src="file:///C:\Users\usuario\Desktop\Front-end\video-2023.mp4" type="video/mp4"/>
+                Tu navegador no es comptatible con la etiqueta video.
+            </video>
+            <video width="50%">
+                <source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4"/>
+            </video>
+            <iframe width="20%" src="https://www.youtube.com/embed/jJRyeUDfthk?si=74MIAGYIVys6-QlF"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+            </iframe>
+        </div>
+        <div id="audios">
+            <audio controls>
+                <source src="https://www.w3schools.com/tags/horse.mp3" type="audio/mp3"/>
+            </audio>
+            <!--
+                <audio controls>
+                    <source src="https://www.w3schools.com/tags/horse.mp3" type="audio/mp3"/>
+                </audio>
+            -->
+            
+        </div>
+    </body>
+</html>

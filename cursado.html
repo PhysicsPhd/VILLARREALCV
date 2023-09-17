@@ -2,6 +2,7 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1">
         <title>
             Website
@@ -43,9 +44,19 @@
 
         <script src="js\sumar.js"></script>
 
+        
         <div id="contenedor" style="display: none">
             <p>El resultado de la suma es </p> <p id="resultado"></p>
         </div>
+
+        <p id="muestreo"></p>
+
+        <script>
+            const objeto1='{"nombre":"Julián","edad":"31","publicaciones":"Paper1"}';
+            const persona1=JSON.parse(objeto1);
+            console.log(persona1);
+            document.getElementById("muestreo").innerHTML="Nombre: "+persona1.nombre;
+        </script>
         
         <section>
             Esta es una sección que tiene texto.
@@ -84,11 +95,11 @@
             <button type="button" title="Tururu">Botón</button>
         </div>
         <div id="videos">
-            <video width="100%" controls autoplay loop>
+            <video width="100%" controls loop>
                 <source src="file:///C:\Users\usuario\Desktop\Front-end\video-2023.mp4" type="video/mp4"/>
                 Tu navegador no es comptatible con la etiqueta video.
             </video>
-            <video width="50%">
+            <video width="50%" controls>
                 <source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4"/>
             </video>
             <iframe width="20%" src="https://www.youtube.com/embed/jJRyeUDfthk?si=74MIAGYIVys6-QlF"
@@ -106,7 +117,6 @@
                     <source src="https://www.w3schools.com/tags/horse.mp3" type="audio/mp3"/>
                 </audio>
             -->
-            
-        </div>
+            </div>
     </body>
 </html>

@@ -17,6 +17,10 @@ address{
     margin-right: auto;
 }
 
+.list-group{
+    text-align: center;
+}
+
 .backtotop{
     display: block;
     text-align: center;

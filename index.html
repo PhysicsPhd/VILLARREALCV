@@ -21,7 +21,7 @@
     <!--Header-->
     <header id="miheader" class="container-fluid">
         <h1>CV Lic. Julián Antonio Villarreal Murúa</h1>
-        <img id="mifoto" src="https://gdurl.com/G3whp" alt="Foto de Julián Antonio Villarreal Murúa en el Insituto Balseiro">
+        <img id="mifoto" class="rounded mx-auto d-block" src="https://gdurl.com/G3whp" alt="Foto de Julián Antonio Villarreal Murúa en el Insituto Balseiro">
         <address>
             <a href="mailto:javillarrealmurua@gmail.com">javillarrealmurua@gmail.com</a><br>
             <a href="tel:+5492915274309">+54 9 291 5274309</a>
@@ -50,13 +50,13 @@
         </nav>
     </div>
     <!--Introducción-->
-    <section id="introduccion" class="container-sm">
-        <p class="lead text-center">Soy un estudiante del Doctorado en Física de la Universidad Nacional del Sur, con una beca interna doctoral del CONICET. Soy argentino, de 31 años, residente en Bahía Blanca, con miras de ampliar mis horizontes laborales. Actualmente me dedico a estudiar fenómenos magnéticos en sistemas bidimensionales y a dictar clases de cáclulo multivariable, mientras expando mis habilidades en mi tiempo libre.</p>
+    <section id="introduccion" class="container-fluid justify-content-center">
+        <p id="primerpara" class="lead text-center">Soy un estudiante del Doctorado en Física de la Universidad Nacional del Sur, con una beca interna doctoral del CONICET. Soy argentino, de 31 años, residente en Bahía Blanca, con miras de ampliar mis horizontes laborales. Actualmente me dedico a estudiar fenómenos magnéticos en sistemas bidimensionales y a dictar clases de cáclulo multivariable, mientras expando mis habilidades en mi tiempo libre.</p>
     </section>
 
     <div class="container">
         <div class="row">
-          <div class="col">
+          <div class="col-12 col-md-6">
             <!--Educación universitaria-->
             <section id="educacion">
                 <h2>Educación universitaria</h2>
@@ -80,7 +80,7 @@
                 <a href="#miheader" class="backtotop">Volver al principio</a>
             </section>
           </div>
-          <div class="col">
+          <div class="col-12 col-md-6">
             <!--Idiomas-->
             <section id="idiomas">
                 <h2>Idiomas</h2>
@@ -95,123 +95,121 @@
                 <a href="#miheader" class="backtotop">Volver al principio</a>
             </section>
           </div>
+          <div class="col-12 col-md-6">
+            <!--Experiencia laboral-->
+            <section id="experiencia">
+                <h2>Experiencia laboral</h2>
+                <h3>Departamento de Matemática<br>
+                    Universidad Nacional del Sur</h3>
+                <table id="tablacargosmatematica" class="table" summary="En esta tabla se sintetizan los cargos docentes ejercidos en el Departamento de Matemática de la Universidad Nacional del Sur, incluyendo las fechas y cátedras en las que se desempeñó en cada uno.">
+                    <tbody id="jefedetps">
+                        <tr>
+                            <td>Desde 04/2023</td><th>Jefe de trabajos prácticos</th>
+                        </tr>
+                        <tr>
+                            <td></td><td>Cálculo multivariable</td>
+                        </tr>
+                    </tbody>
+                    <tbody id="ayudanteA">    
+                        <tr>
+                            <td>Desde 2019</td><th>Ayudante graduado</th>
+                        </tr>
+                        <tr>
+                            <td></td><td>Cálculo en una variable y Cálculo multivariable</td>
+                        </tr>
+                    </tbody>
+                    <tbody id="ayudanteB">
+                        <tr>
+                            <td>2017 - 2019</td><th>Ayudante alumno</th>
+                        </tr>
+                        <tr>
+                            <td></td><td>Cálculo en una variable</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3>Departamento de Física<br>
+                    Universidad Nacional del Sur</h3>
+                <table id="tablacargosfisica" class="table" summary="En esta tabla se sintetizan los cargos docentes ejercidos en el Departamento de Física de la Universidad Nacional del Sur, incluyendo las fechas y cátedras en las que se desempeñó en cada uno.">
+                    <tbody>
+                        <tr>
+                            <td>Durante 07/2023</td><th>Ayudante graduado</th>
+                        </tr>
+                        <tr>
+                            <td></td><td>Física para arquitectura</td>
+                        </tr>
+                    </tbody>            
+                </table>
+                <a href="#miheader" class="backtotop">Volver al principio</a>
+            </section>
+        </div>
+        <div class="col-12 col-md-6">
+            <!--Producción científica-->
+            <section id="produccion">
+                <h2>Producción científica</h2>
+                <table id="tablaproduccion" class="table">
+                    <tbody id="schriefferwolff">
+                        <tr>
+                            <td>2022</td><th>Effective hopping between magnetic impurities in silicene</th>
+                        </tr>
+                        <tr>
+                            <td></td><td>J. Villarreal, J. Juan, P. Jasen y J. S. Ardenghi</td>
+                        </tr>
+                        <tr>
+                            <td></td><td>Journal of Magnetism and Magnetic Materials, 562, 169726</td>
+                        </tr>
+                        <tr>
+                            <td></td><td><a href="https://doi.org/10.1016/j.jmmm.2022.169726">https://doi.org/10.1016/j.jmmm.2022.169726</a></td>
+                        </tr>
+                    </tbody>   
+                    <tbody id="silicenodft">
+                        <tr>
+                            <td>2022</td><th>Charged Lithium adsorption on pristine and defective silicene: A theoretical study</th>
+                        </tr>
+                        <tr>
+                            <td></td><td>J. Juan, L. Fernández-Werner, P. Bechthold, J. Villarreal, F. Gaztañaga, P. V. Jasen, R. Faccio y E. A. González</td>
+                        </tr>
+                        <tr>
+                            <td></td><td>Journal of Physics: Condensed Matter, 34, 245001</td>
+                        </tr>
+                        <tr>
+                            <td></td><td><a href="https://doi.org/10.1088/1361-648X/ac630a">https://doi.org/10.1088/1361-648X/ac630a</a></td>
+                        </tr>                
+                    </tbody>
+                    <tbody id="silicenotop">
+                        <tr>
+                            <td>2021</td><th>Effect of an external electric field on local magnetic moments in silicene</th>
+                        </tr>
+                        <tr>
+                            <td></td><td>J. Villarreal, F. Escudero, J. S. Ardenghi y P. Jasen</td>
+                        </tr>
+                        <tr>
+                            <td></td><td>Journal of Magnetism and Magnetic Materials, 524, 167598</td>
+                        </tr>
+                        <tr>
+                            <td></td><td><a href="https://doi.org/10.1016/j.jmmm.2020.167598">https://doi.org/10.1016/j.jmmm.2020.167598</a></td>
+                        </tr>
+                    </tbody>
+                    <tbody id="silicenohollow">
+                        <tr>
+                            <td>2019</td><th>Formation of localized magnetic states in silicene in an external electric field</th>
+                        </tr>
+                        <tr>
+                            <td></td><td>J. Villarreal, F. Escudero, J. S. Ardenghi y P. Jasen</td>
+                        </tr>
+                        <tr>
+                            <td></td><td>Superlattices and Microstructures, 130, 285-296</td>
+                        </tr>
+                        <tr>
+                            <td></td><td><a href="https://doi.org/10.1016/j.spmi.2019.04.036">https://doi.org/10.1016/j.spmi.2019.04.036</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a href="#miheader" class="backtotop">Volver al principio</a>
+            </section>
+        </div>
         </div>
         <div class="row">
-            <div class="col">
-                <!--Experiencia laboral-->
-                <section id="experiencia">
-                    <h2>Experiencia laboral</h2>
-                    <h3>Departamento de Matemática<br>
-                        Universidad Nacional del Sur</h3>
-                    <table id="tablacargosmatematica" class="table" summary="En esta tabla se sintetizan los cargos docentes ejercidos en el Departamento de Matemática de la Universidad Nacional del Sur, incluyendo las fechas y cátedras en las que se desempeñó en cada uno.">
-                        <tbody id="jefedetps">
-                            <tr>
-                                <td>Desde 04/2023</td><th>Jefe de trabajos prácticos</th>
-                            </tr>
-                            <tr>
-                                <td></td><td>Cálculo multivariable</td>
-                            </tr>
-                        </tbody>
-                        <tbody id="ayudanteA">    
-                            <tr>
-                                <td>Desde 2019</td><th>Ayudante graduado</th>
-                            </tr>
-                            <tr>
-                                <td></td><td>Cálculo en una variable y Cálculo multivariable</td>
-                            </tr>
-                        </tbody>
-                        <tbody id="ayudanteB">
-                            <tr>
-                                <td>2017 - 2019</td><th>Ayudante alumno</th>
-                            </tr>
-                            <tr>
-                                <td></td><td>Cálculo en una variable</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <h3>Departamento de Física<br>
-                        Universidad Nacional del Sur</h3>
-                    <table id="tablacargosfisica" class="table" summary="En esta tabla se sintetizan los cargos docentes ejercidos en el Departamento de Física de la Universidad Nacional del Sur, incluyendo las fechas y cátedras en las que se desempeñó en cada uno.">
-                        <tbody>
-                            <tr>
-                                <td>Durante 07/2023</td><th>Ayudante graduado</th>
-                            </tr>
-                            <tr>
-                                <td></td><td>Física para arquitectura</td>
-                            </tr>
-                        </tbody>            
-                    </table>
-                    <a href="#miheader" class="backtotop">Volver al principio</a>
-                </section>
-            </div>
-            <div class="col">
-                <!--Producción científica-->
-                <section id="produccion">
-                    <h2>Producción científica</h2>
-                    <table id="tablaproduccion" class="table">
-                        <tbody id="schriefferwolff">
-                            <tr>
-                                <td>2022</td><th>Effective hopping between magnetic impurities in silicene</th>
-                            </tr>
-                            <tr>
-                                <td></td><td>J. Villarreal, J. Juan, P. Jasen y J. S. Ardenghi</td>
-                            </tr>
-                            <tr>
-                                <td></td><td>Journal of Magnetism and Magnetic Materials, 562, 169726</td>
-                            </tr>
-                            <tr>
-                                <td></td><td><a href="https://doi.org/10.1016/j.jmmm.2022.169726">https://doi.org/10.1016/j.jmmm.2022.169726</a></td>
-                            </tr>
-                        </tbody>   
-                        <tbody id="silicenodft">
-                            <tr>
-                                <td>2022</td><th>Charged Lithium adsorption on pristine and defective silicene: A theoretical study</th>
-                            </tr>
-                            <tr>
-                                <td></td><td>J. Juan, L. Fernández-Werner, P. Bechthold, J. Villarreal, F. Gaztañaga, P. V. Jasen, R. Faccio y E. A. González</td>
-                            </tr>
-                            <tr>
-                                <td></td><td>Journal of Physics: Condensed Matter, 34, 245001</td>
-                            </tr>
-                            <tr>
-                                <td></td><td><a href="https://doi.org/10.1088/1361-648X/ac630a">https://doi.org/10.1088/1361-648X/ac630a</a></td>
-                            </tr>                
-                        </tbody>
-                        <tbody id="silicenotop">
-                            <tr>
-                                <td>2021</td><th>Effect of an external electric field on local magnetic moments in silicene</th>
-                            </tr>
-                            <tr>
-                                <td></td><td>J. Villarreal, F. Escudero, J. S. Ardenghi y P. Jasen</td>
-                            </tr>
-                            <tr>
-                                <td></td><td>Journal of Magnetism and Magnetic Materials, 524, 167598</td>
-                            </tr>
-                            <tr>
-                                <td></td><td><a href="https://doi.org/10.1016/j.jmmm.2020.167598">https://doi.org/10.1016/j.jmmm.2020.167598</a></td>
-                            </tr>
-                        </tbody>
-                        <tbody id="silicenohollow">
-                            <tr>
-                                <td>2019</td><th>Formation of localized magnetic states in silicene in an external electric field</th>
-                            </tr>
-                            <tr>
-                                <td></td><td>J. Villarreal, F. Escudero, J. S. Ardenghi y P. Jasen</td>
-                            </tr>
-                            <tr>
-                                <td></td><td>Superlattices and Microstructures, 130, 285-296</td>
-                            </tr>
-                            <tr>
-                                <td></td><td><a href="https://doi.org/10.1016/j.spmi.2019.04.036">https://doi.org/10.1016/j.spmi.2019.04.036</a></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <a href="#miheader" class="backtotop">Volver al principio</a>
-                </section>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
+            <div class="col-12 col-md-6">
                 <!--Habilidades-->
                 <section id="habilidades">
                     <h4>Habilidades</h4>
@@ -240,7 +238,7 @@
                     </div>
                 </section>
             </div>
-            <div class="col">
+            <div class="col-12 col-md-6">
                 <!--Formulario-->
                 <section id="formulario">
                     <h4>Formulario de contacto</h4>
@@ -329,7 +327,7 @@
                     </table>   
                 </section>
 -->
-  
+    <!--Footer-->
     <footer id="mifooter" class="container-fluid">
             <a href="#miheader" class="backtotop">Volver al principio</a>
     </footer>

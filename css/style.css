@@ -43,6 +43,15 @@ address{
     text-align: end;
 }
 
-td{
-    word-wrap:break-word;
+table {
+    table-layout:fixed;
+    width:100%;
+}
+
+.firstcol{
+    width: 15%;
+}
+
+.secondcol{
+    width: 85%;
 }

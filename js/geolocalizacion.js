@@ -1,12 +1,8 @@
 function getLocation() {
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(showPosition);
-  } else { 
-    document.getElementById("demo").innerHTML = "La geolocalización no tiene soporte en este navegador.";
+    navigator.geolocation.getCurrentPosition(savePosition);
   }
-}
 
-function showPosition(position) {
-    document.getElementById("demo").innerHTML = "Latitude: " + position.coords.latitude + 
-  "<br>Longitude: " + position.coords.longitude;
+function savePosition(position) {
+    localStorage.setItem("latitud", position.coords.latitude);
+    localStorage.setItem("longitud", position.coords.longitude);
 }

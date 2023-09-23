@@ -1,10 +1,10 @@
 body{
     background-image: url(https://publicdomainpictures.net/pictures/140000/velka/grey-white-background.jpg);
+    background-position: center center;
 }
 /*
 Imagen usada en el body: https://publicdomainpictures.net/en/view-image.php?image=134754&picture=grey-white-background
 License: CC0 Public Domain
-
 Dawn Hudson has released this “Textured White Background” image under Public Domain license.
 It means that you can use and modify it for your personal and commercial projects.
 If you intend to use an image you find here for commercial use, please be aware that some photos do require a model or a property release.
@@ -46,6 +46,7 @@ address{
 }
 .linkaddress{
     background-color: white;
+    padding: 5px;
 }
 
 .nav-item{
@@ -69,12 +70,15 @@ address{
 table{
     table-layout:fixed;
     width:100%;
+    background-color: transparent !important;
 }
 .firstcol{
     width: 15%;
+    background-color: transparent !important;
 }
 .secondcol{
     width: 85%;
+    background-color: transparent !important;
 }
 
 #footerfoto{

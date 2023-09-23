@@ -63,11 +63,16 @@ address{
     text-align: end;
 }
 
-.backtotop{
+#backtotop{
     text-align: end;
 }
 
-table{
+#botonbacktotop{
+    border-style: solid;
+    border-color: black;
+}
+
+#tablaproduccion{
     table-layout:fixed;
     width:100%;
     background-color: transparent !important;

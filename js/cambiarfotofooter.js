@@ -1,7 +1,7 @@
 const images=[
-    {srctext:"imagen1.jpg", alttext:"Foto de los integrantes de la Escuela José Antonio Balseiro 2023."}, 
-    {srctext:"imagen2.jpg", alttext:"Foto de Julián Villarreal en el Instituto Balseiro."}, 
-    {srctext:"imagen3.jpg", alttext:"Foto de Julián Villarreal en el Centro Atómico Bariloche."}
+    {srctext:"imagenes/imagen1.jpg", alttext:"Foto de los integrantes de la Escuela José Antonio Balseiro 2023."}, 
+    {srctext:"imagenes/imagen2.jpg", alttext:"Foto de Julián Villarreal en el Instituto Balseiro."}, 
+    {srctext:"imagenes/imagen3.jpg", alttext:"Foto de Julián Villarreal en el Centro Atómico Bariloche."}
 ];
 
 let contador=1;

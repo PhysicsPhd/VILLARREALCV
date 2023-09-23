@@ -84,3 +84,22 @@ table{
 #footerfoto{
     width:50%;
 }
+
+#botonfotoant,#botonfotosig{
+    width: 10%;
+}
+@media only screen and (min-width:576px){
+    #botonfotoant,#botonfotosig{
+        width: 5%;
+    }
+}
+@media only screen and (min-width:1200px){
+    #botonfotoant,#botonfotosig{
+        width: 3%;
+    }
+}
+@media only screen and (min-width:1600px){
+    #botonfotoant,#botonfotosig{
+        width: 2%;
+    }
+}

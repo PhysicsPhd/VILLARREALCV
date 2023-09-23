@@ -1,24 +1,27 @@
-let contador=2;
+const images=[
+    {srctext:"imagen1.jpg", alttext:"Foto de los integrantes de la Escuela José Antonio Balseiro 2023."}, 
+    {srctext:"imagen2.jpg", alttext:"Foto de Julián Villarreal en el Instituto Balseiro."}, 
+    {srctext:"imagen3.jpg", alttext:"Foto de Julián Villarreal en el Centro Atómico Bariloche."}
+];
 
-document.getElementById("botonfotosig").addEventListener("click",fotosig);
-document.getElementById("botonfotoant").addEventListener("click",fotoant);
+let contador=1;
 
 function fotosig(){
     console.log("Click sobre botón siguiente");
-    if (contador>2) {
-        contador=0;
+    if (contador>1) {
+        contador=-1;
     }
     contador=contador+1;
-    document.getElementById("footerfoto").src="imagen"+contador+".jpg";
-    document.getElementById("footerfoto").alt="Foto de blabla"+contador;
+    document.getElementById("footerfoto").src=images[contador].srctext;
+    document.getElementById("footerfoto").alt=images[contador].alttext;
 }
 
 function fotoant(){
     console.log("Click sobre botón siguiente");
-    if (contador<2) {
-        contador=4;
+    if (contador<1) {
+        contador=3;
     }
     contador=contador-1;
-    document.getElementById("footerfoto").src="imagen"+contador+".jpg";
-    document.getElementById("footerfoto").alt="Foto de blabla"+contador;
+    document.getElementById("footerfoto").src=images[contador].srctext;
+    document.getElementById("footerfoto").alt=images[contador].alttext;
 }

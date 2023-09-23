@@ -31,7 +31,12 @@
     </header>
     <!--Introducción-->
     <section id="introduccion" class="container-fluid justify-content-center">
-        <p id="primerpara" class="lead text-center mx-auto">Soy un estudiante del Doctorado en Física de la Universidad Nacional del Sur, con una beca interna doctoral del CONICET. Soy argentino, de 31 años, residente en Bahía Blanca, con miras de ampliar mis horizontes laborales. Actualmente me dedico a estudiar fenómenos magnéticos en sistemas bidimensionales y a dictar clases de cáclulo multivariable, mientras expando mis habilidades en mi tiempo libre.</p>
+        <p id="primerpara" class="lead text-center mx-auto">
+            Soy un estudiante del Doctorado en Física de la Universidad Nacional del Sur, con una beca interna doctoral del CONICET.
+            Soy argentino, de 31 años, residente en Bahía Blanca, con miras de ampliar mis horizontes laborales.
+            Actualmente me dedico a estudiar fenómenos magnéticos en sistemas bidimensionales y a dictar clases de cáclulo multivariable,
+            mientras expando mis habilidades en mi tiempo libre.
+        </p>
     </section>
     <!--Nav-->
     <div class="container mb-5">
@@ -64,7 +69,7 @@
                     <div class="milista">
                         <dl class="row" id="doctorado">
                             <dt class="col miitem">
-                                <a class="btn py-0 fw-bold" data-bs-toggle="modal" data-bs-target="#modaldoctorado">
+                                <a class="btn btn-outline-secondary py-0 fw-bold" data-bs-toggle="modal" data-bs-target="#modaldoctorado">
                                     Doctorado en Física
                                 </a>
                             </dt>
@@ -76,17 +81,13 @@
                         </dl>
                         <dl class="row" id="licenciatura">
                             <dt class="col miitem">
-                                <a class="btn py-0 fw-bold" data-bs-toggle="modal" data-bs-target="#modallicenciatura">
+                                <a class="btn btn-outline-secondary py-0 fw-bold" data-bs-toggle="modal" data-bs-target="#modallicenciatura">
                                     Licenciatura en Física
                                 </a>
                             </dt>
                             <dd class="col">
                                 <p>Universidad Nacional del Sur</p>
-                                <p>
-                                <a href="https://registrograduados.siu.edu.ar/consulta.php?id_tipo_documento\%5E\%5EVlR4S0pDbi9qZ3BQUkVrOFAyMGNpUT09||nro_documento\%5E\%5ESG1iT0JlTG15Q2V4RGEzVHZsMUY4Zz09||nombres\%5E\%5EOE1jeHV6cFVxb3dPTnVTQnNESWh1Zz09||apellidos\%5E\%5EUlVKYW42cXdoSXduMHNUYUNoNGVTNGNjeHJXL3dTZEpYeU5LSExHNDIyUT0\%3D">
-                                Título
-                                </a>expedido el 17/04/2019
-                                </p>
+                                <p>Título expedido el 17/04/2019</p>
                             </dd>
                         </dl>
                     </div>
@@ -100,7 +101,7 @@
                         </dl>
                         <dl class="row" id="balseiro">
                             <dt class="col miitem">
-                                <a class="btn py-0 fw-bold" data-bs-toggle="modal" data-bs-target="#modalescuela">
+                                <a class="btn btn-outline-secondary py-0 fw-bold" data-bs-toggle="modal" data-bs-target="#modalescuela">
                                     Escuela J. A. Balseiro 2023
                                 </a>
                             </dt>
@@ -111,7 +112,7 @@
                         </dl>
                         <dl class="row" id="proficiency">
                             <dt class="col miitem">
-                                <a class="btn py-0 fw-bold" data-bs-toggle="modal" data-bs-target="#modalproficiency">
+                                <a class="btn btn-outline-secondary py-0 fw-bold" data-bs-toggle="modal" data-bs-target="#modalproficiency">
                                     Certificate of Proficiency in English
                                 </a>
                             </dt>
@@ -384,12 +385,14 @@
             </div>
         </div>
     </div>
+    <button onclick="getLocation()">Try It</button>
+    <p id="demo"></p>
     <!--Footer-->
     <footer id="mifooter" class="container-fluid">
         <div class="text-center mx-auto d-block my-2" id="fotos">
-            <button type="button" class="btn btn-secondary px-2" id="botonfotoant"><i class="bi bi-arrow-left"></i></button>
+            <button type="button" class="btn btn-secondary px-2" id="botonfotoant" onclick="fotoant()"><i class="bi bi-arrow-left"></i></button>
             <img id="footerfoto" src="imagen2.jpg" alt="Foto varia">
-            <button type="button" class="btn btn-secondary px-2" id="botonfotosig"><i class="bi bi-arrow-right"></i></button>
+            <button type="button" class="btn btn-secondary px-2" id="botonfotosig" onclick="fotosig()"><i class="bi bi-arrow-right"></i></button>
         </div>
         <div class="backtotop">
             <button type="button" class="btn btn-secondary"><a href="#miheader" class="link-underline link-underline-opacity-0 text-white"><i class="bi bi-arrow-up"></i> Ir arriba</a></button>
@@ -399,5 +402,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <!--JS-->
     <script src="js/cambiarfotofooter.js"></script>
+    <script src="js/geolocalizacion.js"></script>
 </body>
 </html>

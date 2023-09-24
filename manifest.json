@@ -1,10 +1,10 @@
 {
     "name": "CV Lic. Julián Antonio Villarreal Murúa",
-    "icons": {
+    "icons": [{
         "src": "cv_3757968.png",
         "sizes": "512x512",
         "type": "image/png"
-      },
+      }],
     "start_url": "index.html",
     "display": "browser",
     "background_color": "lightblue"

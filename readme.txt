@@ -7,6 +7,3 @@ Las funciones de JavaScript fetchimginfo.js y geotolocalstorage.js no tienen un 
 simplemente las utilicé para practicar el manejo de:
 JSON, ciclos iterativos, fetch(), geolocalizción del usuario y guardado de información en el localStorage.
 Traté de utilizar imágenes de licencia libre y atribuí su origen en el modal correspondiente.
-Traté de crear un modelo de manifest.json para poder usar la página como una PWA,
-pero necesitaría más tiempo para su implementación, es por eso que <link rel="manifest" href="manifest.json"/>
-está comentado en el header.

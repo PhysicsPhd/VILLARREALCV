@@ -7,3 +7,5 @@ Las funciones de JavaScript fetchimginfo.js y geotolocalstorage.js no tienen un 
 simplemente las utilicé para practicar el manejo de:
 JSON, ciclos iterativos, fetch(), geolocalizción del usuario y guardado de información en el localStorage.
 Traté de utilizar imágenes de licencia libre y atribuí su origen en el modal correspondiente.
+IMPORTANTE! El link de Github Pages es:
+https://physicsphd.github.io/VILLARREALCV/

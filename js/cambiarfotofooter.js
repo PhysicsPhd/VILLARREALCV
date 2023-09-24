@@ -1,3 +1,7 @@
+/*
+Esta función de JavaScript sirve para cambiar la foto del foter con los botones "Siguiente" y "Atrás".
+*/
+
 const images=[
     {srctext:"imagenes/imagen1.jpg", alttext:"Foto de los integrantes de la Escuela José Antonio Balseiro 2023."}, 
     {srctext:"imagenes/imagen2.jpg", alttext:"Foto de Julián Villarreal en el Instituto Balseiro."}, 

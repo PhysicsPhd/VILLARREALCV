@@ -1,3 +1,5 @@
+// Esta función de JavaScript guarda la latitud y la longitud del usuario en Local Storage
+
 function getLocation() {
     navigator.geolocation.getCurrentPosition(savePosition);
   }

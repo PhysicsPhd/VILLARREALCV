@@ -1,0 +1,13 @@
+{
+    "short_name": "CV Villarreal",
+    "name": "CV Lic. Julián Antonio Villarreal Murúa",
+    "icons": {
+        "src": "cv_3757968.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+    "start_url": "/",
+    "orientation": "portrait",
+    "background_color": "#FFFFFF",
+    "related_applications": []
+  }
